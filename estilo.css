@@ -25,6 +25,15 @@
     font-size: 14px;
 }
 
+.line{
+    margin: 20px 500px;
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 @font-face {
     font-family: 'Manrope';
     src: url('utils/font/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
@@ -147,7 +156,7 @@ html{
     background-image: url('utils/img/doctor_hands.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 700px;
     position: relative;
     background-position-y: center;
 }
@@ -177,7 +186,92 @@ html{
     box-shadow: 1px 1px 25px rgb(255, 255, 255);
 }
 
+/*App*/
+
+.app{
+    background-image: url('utils/img/background-reverse.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: relative;
+}
+
+.square-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    transition: background-color 1s;
+    
+}
+.square-logo:hover{
+    
+    background-color: #014169;
+    
+}
+
+.icon-app{
+    font-size: 60px;
+    color: var(--white-color);
+}
+
+.card-blog{
+    padding: 0;
+    margin: 0;
+}
+
+.img-blog{
+    height: 226px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.link-blog{
+    text-decoration: none;
+}
+
+.link-blog:hover{
+    text-decoration: underline;
+}
+
+.rodape{
+    height: 200px;
+    width: auto;
+    background-color: var(--primary-color);
+}
+
+.li-rodape{
+    list-style: none;
+    color: var(--white-color);
+    
+}
+.link-rodape{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.link-rodape:hover{
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+.titulo-rodape{
+    font-weight: 700;
+    color:var(--white-color);
+    letter-spacing: 0.09em;
+}
+
+.icon-rodape{
+    color:var(--white-color);
+    font-size: 24px;
 
 
+}
 
-
+.icones-rodape{
+    display: flex;
+    justify-content: space-between;
+}
